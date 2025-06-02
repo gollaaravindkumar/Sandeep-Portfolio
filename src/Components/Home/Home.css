@@ -44,7 +44,8 @@
   margin-bottom: var(--mb-3);
 }
 
-.home__img {
+/* Container styling */
+ .home__img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -54,7 +55,7 @@
   order: 1;
   justify-self: center;
   animation: profile__animate 8s ease-in-out infinite 1s;
-}
+} 
 
 @keyframes profile__animate {
   0% {
