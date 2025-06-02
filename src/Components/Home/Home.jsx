@@ -3,6 +3,7 @@ import Social from "./Social";
 import "./Home.css";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+import profileImage from "../../assets/profile.jpg";
 const Home = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const Home = () => {
           <div className="home__content grid">
             <Social />
 
-            <div className="home__img"></div>
+            <div className="home__img" style={{ backgroundImage: `url(${profileImage})` }}></div>
 
             <Data />
           </div>
